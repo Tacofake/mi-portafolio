@@ -1,114 +1,166 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Mi Primera Página Web </title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Primera Página Web</title>
+  </head>
 
-</head>
-<body>
-<header><!-- Encabezado principal -->
-    <H1> Angel David Mayorga Noboa </H1>
-    <p>Estudiante de Sistemas: creando bases sólidas para el desarrollo tecnológico.</p>
-    <img src="/imagenes.html/Avatar.jpg" alt="Avatar" width="200">
-</header>
+  <body>
+    <!-- Encabezado principal -->
+    <header>
+      <h1>Angel David Mayorga Noboa</h1>
+      <p>
+        Estudiante de Sistemas: creando bases sólidas para el desarrollo
+        tecnológico.
+      </p>
+      <img src="/imagenes.html/Avatar.jpg" alt="Avatar" width="200" />
+    </header>
 
-<h2>Índice</h2>
+    <h1>Índice</h1>
 
-<nav>
-    <ul> <!-- Lista de navegación -->
-<li><a href="#sobre_mi">Sobre mi</a></li>
-<br>
-<li><a href="#listas_de_intereses_o_logros">Listas de intereses o logros</a></li>
-<br>
-<li><a href="#tabla_de_habilidades">Tabla de habilidades</a></li>
-<br>
-<li><a href="#multimedia">Multimedia</a></li>
-<br>
-<li><a href="#formulario_de_contacto">Formulario de contacto</a></li>
-</ul>
-</nav>
-<br>
-<section id="sobre_mi">
-    <h2>Sobre mi</h2>
-    <p>Soy un estudiante apasionado por la <strong>tecnología</strong> y el desarrollo de <em>software</em>.<br> Me encanta aprender nuevas habilidades y enfrentar desafíos que me permitan <mark>crecer</mark> profesionalmente.</p>
-</section>
+    <nav>
+      <ul>
+        <!-- Lista de navegación -->
+        <li><a href="#sobre_mi">Sobre mi</a></li>
+        <li>
+          <a href="#listas_de_intereses_o_logros"
+            >Listas de intereses o logros</a
+          >
+        </li>
+        <li><a href="#tabla_de_habilidades">Tabla de habilidades</a></li>
 
-<section id="listas_de_intereses_o_logros">
-<h2>Listas de intereses o logros</h2>
-    <h3>Intereses</h3>
-    <ul><!-- Lista de intereses -->
-        <li>Desarrollo web</li>
-        <li>Inteligencia artificial</li>
-        <li>Video juegos</li>
-    </ul>
-</section>
+        <li><a href="#multimedia">Multimedia</a></li>
 
-<section id="tabla_de_habilidades">
-    <h2>Tabla de habilidades</h2>
-    <table border="1"> <!-- Agregado borde a la tabla -->
-        <tr><!-- Fila de encabezado -->
-            <th>Habilidad</th>
-            <th>Nivel</th>
-        </tr>
-        <tr>
-            <td>Programación en Java</td>
-            <td>Intermedio</td>
-        </tr>
-        <tr>
-            <td>Desarrollo web</td>
-            <td>Basico</td>
-        </tr>
-        <tr>
-            <td>Ingles</td>
-            <td>B2</td>
-        </tr>
-        <tr>
-            <td>Matemáticas</td>
-            <td>Intermedio</td>
-        </tr>
-        <tfoot><!-- Pie de tabla -->
-        <tr>
-        <td colspan="10">Una pequeña tabla de mis habilidades</td>
-        </tr>
-        </tfoot>
-    </table>
-    <br>
-    <section id="multimedia"> <!-- Sección de multimedia -->
-    <h2>Multimedia</h2>
-    </section>
-    <br>
-    <section id="formulario_de_contacto"> <!-- Sección de formulario de contacto -->
-    <h2>Formulario de contacto</h2>
-    <form action="#" method="post">
-        <label for="nombre">Nombre:</label><br>
-        <input type="text" id="nombre" name="nombre" required><br><br>
-        
-        <label for="email">Correo Electrónico:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
-        
-        <label for="edad">Edad:</label>
-        <input type="number" id="edad" name="edad" required><br><br>
+        <li><a href="#formulario_de_contacto">Formulario de contacto</a></li>
+      </ul>
+    </nav>
 
-        <label for="genero">Genero:</label>
-        <select id="genero" name="genero" required>
-            <option value="masculino">Masculino</option>
-            <option value="femenino">Femenino</option>
-            <option value="otro">Otro</option>
-        </select><br><br>
+    <!-- Informacion importante -->
 
-        <label for="mensaje">Mensaje:</label><br>
-        <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
-        
-        <input type="submit" value="Enviar">
-    </section>
-    <br>
+    <main>
+     
+        <article id="sobre_mi">
+          <h1>Sobre mi</h1>
+          <p>
+            Soy un estudiante apasionado por la <strong>tecnología</strong> y el
+            desarrollo de <em>software</em>. Me encanta aprender nuevas
+            habilidades y enfrentar desafíos que me permitan
+            <mark>crecer</mark> profesionalmente.
+          </p>
+        </article>
+
+        <article id="listas_de_intereses_o_logros">
+          <h1>Listas de intereses o logros</h1>
+          <h2>Intereses</h2>
+          <ul>
+            <!-- Lista de intereses -->
+            <li>Desarrollo web</li>
+            <li>Inteligencia artificial</li>
+            <li>Video juegos</li>
+          </ul>
+        </article>
+
+
+      <section>
+        <article id="tabla_de_habilidades">
+          <h2>Tabla de habilidades</h2>
+          <table border="1">
+            <!-- Agregado borde a la tabla -->
+            <tr>
+              <!-- Fila de encabezado -->
+              <th>Habilidad</th>
+              <th>Nivel</th>
+            </tr>
+            <tr>
+              <td>Programación en Java</td>
+              <td>Intermedio</td>
+            </tr>
+            <tr>
+              <td>Desarrollo web</td>
+              <td>Basico</td>
+            </tr>
+            <tr>
+              <td>Ingles</td>
+              <td>B2</td>
+            </tr>
+            <tr>
+              <td>Matemáticas</td>
+              <td>Intermedio</td>
+            </tr>
+            <tfoot>
+              <!-- Pie de tabla -->
+              <tr>
+                <td colspan="10">Una pequeña tabla de mis habilidades</td>
+              </tr>
+            </tfoot>
+          </table>
+        </article>
+      </section>
+      
+        <!-- Sección de multimedia -->
+      <article id="multimedia">
+        <h2>Multimedia</h2>
+        <audio src=""></audio>
+      </article>
+
+        <article id="formulario_de_contacto">
+          <!-- Sección de formulario de contacto -->
+          <h2>Formulario de contacto</h2>
+          <form action="#" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required />
+
+            <label for="email">Correo Electrónico:</label><br />
+            <input type="email" id="email" name="email" required />
+
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad" required />
+
+            <label for="genero">Genero:</label>
+            <select id="genero" name="genero" required>
+              <option value="masculino">Masculino</option>
+              <option value="femenino">Femenino</option>
+              <option value="otro">Otro</option>
+            </select>
+
+            <label for="preferencias">Preferencias:</label>
+
+            <input
+              type="checkbox"
+              id="Video juegos"
+              name="preferencias"
+              value="noticias"
+            />
+            <label for="Video juegos">Video juegos</label>
+            <input
+              type="checkbox"
+              id="tecnologia"
+              name="preferencias"
+              value="tecnologia"
+            />
+            <label for="tecnologia">Tecnologia</label>
+            <input
+              type="checkbox"
+              id="programacion"
+              name="preferencias"
+              value="programacion"
+            />
+            <label for="programacion">Programacion</label>
+          </form>
+
+          <input type="submit" value="Enviar" />
+        </article>
+    </main>
+
     <footer>
-    <p>&copy; 2025 Angel David Mayorga Noboa. Todos los derechos reservados.</p>
-    <h4>Redes Sociales</h4>
-    <a href="https://www.instagram.com/tacofake2/" target="_blank">instagram</a>
-    <br>
-    <a href="https://github.com/Tacofake" target="_blank">github</a>
+      <p>
+        &copy; 2025 Angel David Mayorga Noboa. Todos los derechos reservados.
+      </p>
+      <h4>Redes Sociales</h4>
+      <a href="https://www.instagram.com/tacofake2/" tareget="_blank"
+        >instagram</a>
+      <a href="https://github.com/Tacofake" target="_blank">github</a>
     </footer>
-</body>
+  </body>
 </html>
